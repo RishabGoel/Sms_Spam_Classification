@@ -48,7 +48,7 @@ def convert_direct(data):
 	return TextBlob(data).words
 
 #getting the feel of data
-data=[line.strip() for line in open('/home/rishab/ML/cs229/post_collegeate_earning/preprocess_experiments/smsspamcollection/SMSSpamCollection')]
+data=[line.strip() for line in open('address of the sms file')]
 
 print len(data)
 for msg_no, msg in enumerate(data[:5]):
