@@ -131,7 +131,7 @@ params={
 	'tfidf__use_idf': (True, False),
 	"bow__analyzer" : (convert,convert_direct)
 }
-print "startified",StratifiedKFold(msg_label_train,n_folds=5)
+
 grid=GridSearchCV(
 	pipeline,
 	params,
